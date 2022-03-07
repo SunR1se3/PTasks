@@ -1,0 +1,24 @@
+INSERT INTO `book`(`id`, `ISBN`, `title`, `pages`, `datePub`) VALUES (1,'656343','книга1',255,'1999-12-14');
+INSERT INTO `book`(`id`, `ISBN`, `title`, `pages`, `datePub`) VALUES (2,'214122','книга2',300,'1967-09-07');
+INSERT INTO `book`(`id`, `ISBN`, `title`, `pages`, `datePub`) VALUES (3,'985784','книга3',150,'1970-05-01');
+INSERT INTO `book`(`id`, `ISBN`, `title`, `pages`, `datePub`) VALUES (4,'656343','книга4',600,'1988-11-09');
+INSERT INTO `book`(`id`, `ISBN`, `title`, `pages`, `datePub`) VALUES (5,'656343','книга5',555,'1980-03-30');
+
+INSERT INTO `bookauthor`(`id`, `idBook`, `Name`, `Surname`) VALUES (1,1,'Имя1','Фам1');
+INSERT INTO `bookauthor`(`id`, `idBook`, `Name`, `Surname`) VALUES (2,1,'Имя2','Фам2');
+INSERT INTO `bookauthor`(`id`, `idBook`, `Name`, `Surname`) VALUES (3,1,'Имя3','Фам3');
+INSERT INTO `bookauthor`(`id`, `idBook`, `Name`, `Surname`) VALUES (4,3,'Имя4','Фам4');
+INSERT INTO `bookauthor`(`id`, `idBook`, `Name`, `Surname`) VALUES (5,4,'Имя5','Фам5');
+INSERT INTO `bookauthor`(`id`, `idBook`, `Name`, `Surname`) VALUES (6,4,'Имя6','Фам6');
+INSERT INTO `bookauthor`(`id`, `idBook`, `Name`, `Surname`) VALUES (7,5,'Имя7','Фам7');
+INSERT INTO `bookauthor`(`id`, `idBook`, `Name`, `Surname`) VALUES (8,5,'Имя8','Фам8');
+
+
+INSERT INTO `bookgenre`(`id`, `idBook`, `name`) VALUES (1,1,'фантастика');
+INSERT INTO `bookgenre`(`id`, `idBook`, `name`) VALUES (2,1,'приключения');
+INSERT INTO `bookgenre`(`id`, `idBook`, `name`) VALUES (3,2,'детектив');
+INSERT INTO `bookgenre`(`id`, `idBook`, `name`) VALUES (4,2,'приключения');
+INSERT INTO `bookgenre`(`id`, `idBook`, `name`) VALUES (5,3,'юмор');
+INSERT INTO `bookgenre`(`id`, `idBook`, `name`) VALUES (6,3,'фантастика');
+INSERT INTO `bookgenre`(`id`, `idBook`, `name`) VALUES (7,4,'роман');
+INSERT INTO `bookgenre`(`id`, `idBook`, `name`) VALUES (8,4,'детектив');

@@ -1,0 +1,3 @@
+select name, surname, MAX(y.countb) from
+(select name, surname, COUNT(idBook) as countb
+from bookauthor GROUP BY idBook) y;

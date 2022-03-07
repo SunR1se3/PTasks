@@ -1,0 +1,1 @@
+БД разработана на локальном сервере openserver phpMyAdmin (mysql 5.7)

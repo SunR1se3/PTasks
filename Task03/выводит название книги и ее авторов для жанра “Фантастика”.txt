@@ -1,0 +1,3 @@
+select b.title, ba.name, ba.surname from book b
+join bookauthor ba on ba.idBook = b.id and
+ba.idBook in (select idBook from bookgenre where name = 'фантастика');
